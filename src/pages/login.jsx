@@ -1,5 +1,5 @@
 import SLACK from "../img/icons8-slack-255.png"
-const GithubUrl = 'https://d7b5-103-162-78-96.ngrok-free.app/auth/slack'
+const GithubUrl = 'https://lucid-growth-5o7j4abhx-vishnukant-trivedis-projects.vercel.app/auth/slack'
 
 export const Login = () => {
 
