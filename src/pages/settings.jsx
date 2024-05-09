@@ -10,7 +10,7 @@ export const Settings = () => {
     useEffect(() => {
         const fetchChannels = async () => {
           try {
-            const response = await axios.get('http://localhost:1234/channel-list');
+            const response = await axios.get('https://lucid-growth-5o7j4abhx-vishnukant-trivedis-projects.vercel.app/channel-list');
             settingsManager.setChannels(response.data)
             setChannels(settingsManager.getSettingsArray());
             setIsLoading(false);

@@ -22,7 +22,7 @@ class EventsView extends React.Component {
         obj.events.forEach(event => {
           if ((event.name === eventName) && (event.enabled)) {
             flag = true;
-            axios.post('http://localhost:1234/message', { channel: obj.id, text: event.message })
+            axios.post('https://lucid-growth-5o7j4abhx-vishnukant-trivedis-projects.vercel.app/message', { channel: obj.id, text: event.message })
               .then(response => {
                 toast.success('Notification Sent');
               })
