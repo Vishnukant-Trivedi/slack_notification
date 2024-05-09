@@ -1,0 +1,164 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Ensure the button is vertically centered on the screen */
+}
+
+.login-header {
+  margin-top: 50px; /* Adjust the margin-top as needed */
+  margin-right: 50px;
+}
+
+.wrapper{
+    width: 60%;
+    height: 75%;
+    -webkit-box-shadow: -1px 5px 23px 0px rgba(0,0,0,0.6); 
+    box-shadow: -1px 5px 23px 0px rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+ 
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginButton{
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    display: flex ;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.google{
+    background-color:  aqua;
+    margin-bottom: 20px;
+}
+
+.slack{
+    background-color:  rgb(76, 102, 110);
+}
+
+.slackIcon {
+    width: 50px; /* Set the width of the image */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  }
+
+  .googleIcon {
+    width: 50px; /* Set the width of the image */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  }
+
+  .slackIcon,.googleIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .send-email{
+    margin-bottom: 20px; /* Add margin at the bottom of each form */
+  }
+
+  .send-message{
+    height: 20px;
+  }
+
+  /* styles.css */
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px; /* Small gap between cards */
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+
+.card input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 30px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #ccc;
+  position: relative;
+  cursor: pointer;
+}
+
+.card input[type="checkbox"]:checked {
+  background-color: #4caf50;
+}
+
+.card input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.card input[type="checkbox"]:checked::before {
+  transform: translateX(15px);
+}
+
+.save-button {
+  width: 300px;
+  font-size: 16px; /* Increase the font size */
+  padding: 10px 20px; /* Adjust padding for larger button */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+.settings-link {
+  color: #007bff; /* Blue color */
+  text-decoration: none; /* Remove underline */
+}
+
+.settings-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+  font-weight: bold; /* Make the text bold on hover */
+}
+
+.events-link {
+  color: #007bff; /* Blue color */
+  text-decoration: none; /* Remove underline */
+}
+
+.events-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+  font-weight: bold; /* Make the text bold on hover */
+}
